@@ -23,11 +23,13 @@
 
   <ItemGroup>
     <None Remove="ClientApp\app\components\fetchdata\fetchdata.component.spec.ts" />
+    <None Remove="ClientApp\app\guards\auth.guards.ts" />
     <None Remove="ClientApp\app\services\auth.service.ts" />
   </ItemGroup>
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\components\fetchdata\fetchdata.component.spec.ts" />
+    <TypeScriptCompile Include="ClientApp\app\guards\auth.guards.ts" />
     <TypeScriptCompile Include="ClientApp\app\services\auth.service.ts" />
   </ItemGroup>
 
