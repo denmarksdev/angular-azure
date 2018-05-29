@@ -2,7 +2,9 @@
     ViewData["Title"] = "Home Page";
 }
 
-<app asp-prerender-module="ClientApp/dist/main-server">Loading...</app>
+<app>Loading...</app>
+
+@*asp-prerender-module="ClientApp/dist/main-server"*@
 
 <script src="~/dist/vendor.js" asp-append-version="true"></script>
 @section scripts {
